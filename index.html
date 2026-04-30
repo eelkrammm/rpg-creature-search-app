@@ -1,0 +1,64 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>RPG Creature Search App</title>
+    <link href="styles.css" rel="stylesheet" />
+  </head>
+  <body>
+    <h1>RPG Creature Search App</h1>
+    <div id="wrapper">
+      <div class="top-wrap">
+      <p id="search-paragraph">Search for Creature Name or ID</p>
+      <form>
+      <input id="search-input" type="search" required/>
+      <button type="button" id="search-button">Search</button>
+      </form>
+      </div>
+      <div id="result">
+
+        <div class="res">
+    <p id="creature-name"></p>
+    <p id="creature-id"></p>
+    </div>
+    <div class="res">
+    <p id="height"></p>
+    <p id="weight"></p>
+    </div>
+    <div id="types"></div>
+
+
+      </div>
+      <div id="result-2">
+      <div class="wrap">
+      <span class="el">Base</span>
+      <span class="el">Stats</span></div>
+      <div class="wrap">
+      <span class="el">HP:</span>
+      <span class="el" id="hp"></span>
+      </div>
+      <div class="wrap">
+      <span class="el">Attack:</span>
+      <span class="el" id="attack"></span>
+      </div>
+      <div class="wrap">
+      <span class="el">Defense:</span>
+      <span class="el" id="defense"></span>
+      </div>
+      <div class="wrap">
+      <span class="el">Special Attack:</span>
+      <span class="el" id="special-attack"></span>
+      </div>
+      <div class="wrap">
+      <span class="el">Special Deffense:</span>
+      <span class="el" id="special-defense"></span>
+      </div>
+      <div class="wrap">
+      <span class="el">Speed:</span>
+      <span class="el" id="speed"></span>
+      </div>
+      </div>
+    </div>
+    <script src="script.js"></script>
+    </body>
